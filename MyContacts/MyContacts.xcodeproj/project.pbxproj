@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		678EC771278CBE6A00603BA2 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 678EC770278CBE6A00603BA2 /* Contact.swift */; };
 		67B808342787279700A2E807 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B808332787279700A2E807 /* AppDelegate.swift */; };
 		67B808362787279700A2E807 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B808352787279700A2E807 /* SceneDelegate.swift */; };
 		67B808382787279700A2E807 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B808372787279700A2E807 /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		678EC770278CBE6A00603BA2 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
 		67B808302787279700A2E807 /* MyContacts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyContacts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67B808332787279700A2E807 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		67B808352787279700A2E807 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		678EC76F278CBE3100603BA2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				678EC770278CBE6A00603BA2 /* Contact.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		67B808272787279700A2E807 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 			children = (
 				67B808332787279700A2E807 /* AppDelegate.swift */,
 				67B808352787279700A2E807 /* SceneDelegate.swift */,
+				678EC76F278CBE3100603BA2 /* Model */,
 				67B808372787279700A2E807 /* ViewController.swift */,
 				67B808392787279700A2E807 /* Main.storyboard */,
 				67B8083C2787279A00A2E807 /* Assets.xcassets */,
@@ -138,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				678EC771278CBE6A00603BA2 /* Contact.swift in Sources */,
 				67B808382787279700A2E807 /* ViewController.swift in Sources */,
 				67B808342787279700A2E807 /* AppDelegate.swift in Sources */,
 				67B808362787279700A2E807 /* SceneDelegate.swift in Sources */,
